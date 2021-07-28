@@ -1,0 +1,231 @@
+body {
+    background-image: url(/img/home_page_get.jpeg);
+    background-size: 80%;
+    margin:0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    background-color:rgb(7, 7, 7);
+    padding: 10px 10px;
+    flex-direction: row;
+    align-content: center;
+    flex-shrink: 1;
+    justify-content: flex-end;
+}
+a {
+    text-decoration: none;
+    color: gold;
+    font-size: 20px;
+}
+li {
+    display: inline;
+    padding: 2%;
+}
+#logo {
+    padding-right: 10%;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.info h1 {
+    text-align: center;
+    font-size: 60px;
+    background-color: goldenrod;
+    width: 30%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#firsteventimg {
+    border-radius: 80px;
+    width: 400px;
+    height: 400px;
+}
+.firsevent {
+    background-color: lightslategrey;
+    width: 25%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.firsevent:hover {
+    position: relative;
+    animation-name: rtl;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+@keyframes rtl {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+#secondeventimg {
+    border-radius: 80px;
+    width: 400px;
+    height: 400px;
+}
+.secondevent {
+    background-color: rgb(45, 165, 75);
+    width: 25%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.secondevent:hover {
+    filter: brightness(70%);
+}
+.myContainer {
+    display: flex;
+    justify-content: space-evenly;  
+}
+#thirdeventimg {
+    border-radius: 80px;
+    width: 400px;
+    height: 400px;
+}
+.thirdevent {
+    background-color: rgb(58, 109, 160);
+    width: 25%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.thirdevent:hover {
+    box-shadow: 20px 20px 20px black;
+}
+.video {
+    margin-top: 40px;
+}
+#linktohead {
+    margin-left: 70%;
+    font-size: 60px;
+    background-color: seagreen;
+}
+@media screen and (max-width:768px){
+    .info h1 {
+        font-size: 35px;
+        width: 23%;
+    }
+    #firsteventimg {
+        width: 180px;
+        height: 180px;
+    }
+    .firsevent {
+        background-color: lightslategrey;
+        width: 25%;
+        height: 25%;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .firsevent:hover {
+        position: relative;
+        animation-name: rtl;
+        animation-duration: 4s;
+        animation-delay: 1s;
+    }
+    #secondeventimg {
+        width: 180px;
+        height: 180px;
+    }
+    .secondevent {
+        background-color: rgb(45, 165, 75);
+        width: 25%;
+        height: 25%;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .secondevent:hover {
+        filter: brightness(70%);
+    }
+    #thirdeventimg {
+        width: 180px;
+        height: 180px;
+    }
+    .thirdevent {
+        background-color: rgb(58, 109, 160);
+        width: 25%;
+        height: 25%;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .thirdevent:hover {
+        box-shadow: 20px 20px 20px black;
+    }
+    #linktohead {
+        margin-left: 70%;
+        font-size: 30px;
+        background-color: seagreen;
+    }
+    #video {
+        width: 450px;
+        height: 250px;
+    }
+}
+@media screen and (max-width:425px){
+     .link{
+        font-size: 3vw;
+      
+    }
+    nav {
+        width: 100vw;
+    }
+    .info h1 {
+        font-size: 25px;
+        width: 23%;
+    }
+    #firsteventimg {
+        width: 80px;
+        height: 80px;
+    }
+    .firsevent {
+        background-color: lightslategrey;
+        width: 25%;
+        height: 25%;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .firsevent:hover {
+        position: relative;
+        animation-name: rtl;
+        animation-duration: 4s;
+        animation-delay: 1s;
+    }
+    #secondeventimg {
+        width: 80px;
+        height: 80px;
+    }
+    .secondevent {
+        background-color: rgb(45, 165, 75);
+        width: 25%;
+        height: 25%;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .secondevent:hover {
+        filter: brightness(70%);
+    }
+    #thirdeventimg {
+        width: 80px;
+        height: 80px;
+    }
+    .thirdevent {
+        background-color: rgb(58, 109, 160);
+        width: 25%;
+        height: 25%;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .thirdevent:hover {
+        box-shadow: 20px 20px 20px black;
+    }
+    #linktohead {
+        margin-left: 70%;
+        font-size: 20px;
+        background-color: seagreen;
+    }
+    #video {
+        width: 300px;
+        height: 200px;
+    }
+    #logo {
+        padding-right: 3%;
+    }
+}
