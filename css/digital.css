@@ -111,7 +111,7 @@ p {
         width: 800px;
     }
 }
-@media screen and (max-width:450px){
+@media screen and (max-width:425px){
     h1 {
         width: 36%;
     }
