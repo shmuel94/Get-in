@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 nav {
     background-color:rgb(7, 7, 7);
@@ -23,8 +24,10 @@ li {
     display: inline;
     padding: 2%;
 }
-#logo {
+#lg {
     padding-right: 10%;
+    width: 90px;
+    height: 55px;
 }
 .info{
     display: flex;
@@ -39,8 +42,8 @@ li {
 }
 #firsteventimg {
     border-radius: 80px;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 .firsevent {
     background-color: lightslategrey;
@@ -61,8 +64,8 @@ li {
   }
 #secondeventimg {
     border-radius: 80px;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 .secondevent {
     background-color: rgb(45, 165, 75);
@@ -79,8 +82,8 @@ li {
 }
 #thirdeventimg {
     border-radius: 80px;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 .thirdevent {
     background-color: rgb(58, 109, 160);

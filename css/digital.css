@@ -1,19 +1,21 @@
 body {
-    background-image: url(https://scontent.fsdv1-2.fna.fbcdn.net/v/t1.6435-9/216080632_332569831864775_8818458989695891487_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=0debeb&_nc_ohc=3UXGf0DmhnAAX91FT69&_nc_ht=scontent.fsdv1-2.fna&oh=5e550d3b8a7c2df11b73a858b72967bc&oe=6125E50A);
+    background-image: url(/img/digitalbackraound.jpg);
     background-size: 100%;
     margin:0;
     padding: 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
 }
 h1 {
     margin-top: 50px;
     margin-left: 510px;
     font-size: 60px;
     font-weight: lighter;
-    background-color: rgb(214, 218, 13);
+    /* background-color: rgba(214, 218, 0, 0.35); */
     width: 20%;
     text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.904);
+    color: rgba(255, 255, 255, 0.582);
 }
 .sliderframe {
     width: 90%;
@@ -26,8 +28,8 @@ h1 {
     width: 100%;
     height: 100%;
     flex-shrink: 0;
-    animation: moveToSide 30s alternate infinite;
-    animation-delay: 7s;
+    animation: moveToSide 60s alternate infinite;
+    animation-delay: 9s;
 }
 .sliderframe .sliderimg img {
     width: 50%;
@@ -37,17 +39,26 @@ h1 {
     0% {
         transform: translateX(0%);
     }
-    25% {
+    12.5% {
         transform: translateX(-100%);
     }
-    50% {
+    25% {
         transform: translateX(-200%);
     }
-    75% {
+    50% {
         transform: translateX(-300%);
     }
-    100% {
+    62.5% {
         transform: translateX(-400%);
+    }
+    75%{
+        transform: translateX(-500%);
+    }
+    87.5%{
+        transform: translateX(-600%);
+    }
+    100%{
+        transform: translateX(-700%);
     }
 }
 nav {
@@ -76,15 +87,14 @@ li {
 }
 p {
     font-size: 30px;
-    background-color: cornflowerblue;
+    background-color: rgb(100, 149, 237,0.22);
     width: 32%;
 }
 #info {
-    background-color: rgb(236, 0, 0);
     width: 23%;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.904);
 }
 .form {
-    border: 10px solid rgb(0, 255, 13);
     padding: 15px;
     font-size: 22px;
     text-align: start;
@@ -93,12 +103,13 @@ p {
     grid-gap: 5px;
     border: ridge;
     box-sizing: border-box;
-    width: 300px
+    width: 240px;
   }
   #linktohead {
-    margin-left: 70%;
+    margin-left: 60%;
     font-size: 41px;
-    background-color: rgb(6, 4, 131);
+    color: rgba(229, 233, 14, 0.548);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.904);
 }
 @media screen and (max-width:768px){
     h1 {
