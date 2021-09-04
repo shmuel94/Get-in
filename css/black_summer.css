@@ -1,0 +1,149 @@
+body {
+    background-image: url(/img/blacksummerbackruond.jpg);
+    background-size: 100%;
+    margin:0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    margin-top: 50px;
+    margin-left: 510px;
+    font-size: 60px;
+    font-weight: lighter;
+    width: 20%;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.904);
+    color: rgba(255, 255, 255, 0.582);
+}
+.sliderframe {
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    overflow: hidden;
+    margin-left: 5%;
+}
+.sliderframe .sliderimg {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    animation: moveToSide 60s alternate infinite;
+    animation-delay: 7s;
+}
+.sliderframe .sliderimg img {
+    width: 50%;
+    height: 100%;
+}
+@keyframes moveToSide {
+    0% {
+        transform: translateX(0%);
+    }
+    12.5% {
+        transform: translateX(-100%);
+    }
+    25% {
+        transform: translateX(-200%);
+    }
+    50% {
+        transform: translateX(-300%);
+    }
+    62.5% {
+        transform: translateX(-400%);
+    }
+    75%{
+        transform: translateX(-500%);
+    }
+    87.5%{
+        transform: translateX(-600%);
+    }
+    100%{
+        transform: translateX(-700%);
+    }
+}
+nav {
+    background-color:rgb(7, 7, 7);
+    padding: 10px 10px;
+    flex-direction: row;
+    align-content: center;
+    flex-shrink: 1;
+    justify-content: flex-end;
+}
+a {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.904);
+    color: gold;
+    font-size: 20px;
+}
+li {
+    display: inline;
+    padding: 2%;
+}
+#logo {
+    padding-right: 10%;
+}
+#logoimg {
+    width: 65px;
+    height: 65px;
+}
+p {
+    font-size: 30px;
+    background-color: rgb(100, 149, 237,0.35);
+    width: 32%;
+}
+#info {
+    width: 23%;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.904);
+    color: rgba(255, 255, 255, 0.582);
+}
+.form {
+    padding: 15px;
+    font-size: 22px;
+    text-align: start;
+    color: var(--formcolor);
+    background-color: grey;
+    grid-gap: 5px;
+    border: ridge;
+    box-sizing: border-box;
+    width: 240px
+  }
+  #linktohead {
+    margin-left: 70%;
+    font-size: 41px;
+    color: rgba(229, 233, 14, 0.548);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.904);
+}
+@media screen and (max-width:768px){
+    h1 {
+        font-size: 50px;
+    }
+    #info {
+        font-size: 40px;
+    }
+    nav {
+        width: 800px;
+    }
+}
+@media screen and (max-width:425px){
+    h1 {
+        width: 36%;
+    }
+    p {
+        font-size: 30px;
+        background-color: cornflowerblue;
+        width: 500px;
+        height: 30%;
+    }
+    #info {
+        width: 170px;
+    }
+    .form {
+        width: 400px;
+        font-size: 30px;
+    }
+    #linktohead {
+        margin-left: 10%;
+    }
+    .sliderframe .sliderimg {
+        width: 700px;
+    }
+}
