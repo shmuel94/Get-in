@@ -1,6 +1,6 @@
 body {
-    background-image: url(/img/home_page_get.jpeg);
-    background-size: 80%;
+    background-image: url(../img/home_page_get.jpeg);
+    /* background-size: 80%; */
     margin:0;
     padding: 0;
     background-repeat: no-repeat;
